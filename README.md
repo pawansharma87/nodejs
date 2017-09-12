@@ -184,3 +184,36 @@ There are two types of Object
     	* UI centric 
     	* Business logic centric
     	* Data centric
+
+	* Since Node uses Event Queue to store events and we know that queue has FIFO meaning first come first serve order.
+    * So we have a program in that we are reading files. one file has 10 GB file and other file has 2KB file so accordingly when events will be generated the first file events will take place first so second file reading event will be executed after first since those events are in queue.
+    But here reading data event will not be store in one go meaning when it read data again and again and genterate data event again and again till the reading will be over but in case of second file reading data event will be less so second file will be completed first.
+
+
+    * Crypto Module = meaning hidden writing
+    They are two types : 
+    	
+    * reversable 
+    	* AES ( Advanced Encryption Standards)
+    	* In this we require three things 1. Formula 2. Key 3. Password
+    	* PBE ( Password Based Encryption)
+    	* DES (digital encryption standard)
+
+    * no reversable 
+    	* First digest algorithm is md1 ( message digest version 1)
+    	* Now we have md5 
+    	* SHA ( Secure Hashing Algorithm) SHA1 and SHA2
+    	
+    * Duplex 
+    	* Its a stream which is used for both writing as well as reading the data from stream.
+
+    * Http Module:
+    	* Http is an internal module of node which is used to write http client and server.
+
+    * Express:
+    	* Express is a framework which is used to implement REST APIs in node. Express itself can be used to as server as well.
+
+    * Sails:
+    	* Sails is a framework which is used to implememt application by using MVC pattern
+
+	<img src="node_slides.pdf" alt="some text"  width="4200" height="4200">
