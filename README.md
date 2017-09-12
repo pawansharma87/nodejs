@@ -14,20 +14,20 @@ Step 3 - Run node programe
 
 
 Javascript ?
-    Loosely typed language
-    Functional programming
-    Only variables and functions are in Javascript
-    Dynamic programming language 
-    Interpreter compile and run javascript code at run time.
-    flexible language
-    Javascript Bible
-    web browser has a javascript engine which is used as run time environment to execute javascript.
-    Netscape is built javascript.
-    Official name of javascript environment is Raino 
-    Raino has many issues such as memory,performance etc. 
-    There are many javascript run time environment such as V8.
-    v8 is developed by Google from scratch.
-    Nashorn is one more javascript runtime engine which is built by Oracle came in 2014.
+* loosely typed language
+* functional programming
+* only variables and functions are in Javascript
+* Dynamic programming language 
+* Interpreter compile and run javascript code at run time.
+* flexible language
+* Javascript Bible
+* web browser has a javascript engine which is used as run time environment to execute javascript.
+* Netscape is built javascript.
+* Official name of javascript environment is Raino 
+* Raino has many issues such as memory,performance etc. 
+* There are many javascript run time environment such as V8.
+* v8 is developed by Google from scratch.
+* Nashorn is one more javascript runtime engine which is built by Oracle came in 2014.
 
 
 
